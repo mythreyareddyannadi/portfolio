@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mythreya - web developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="leftNav poppins-semibold">
+                <h1>Mythreya's portfolio</h1>
+            </div>
+            <div class="rightNav poppins-regular">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="aboutSection poppins-regular">
+            <div class="leftAbout">
+                <p>
+                    Hi, I'm Mythreya, an undergraduate <br> engineering student at Malla Reddy University <br> with a passion for <br>
+                    <span id="element"></span>
+                </p>
+            </div>
+            <div class="rightAbout">
+                <img src="asserts/profile.jpeg" alt="picture" width="250px">
+            </div>
+        </section>
+
+        <div class="heading poppins-semibold">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="projectSection poppins-regular">
+            <div class="leftProject">
+                <div class="project">
+                    <img src="asserts/weather.jpg" alt="Weather picture">
+                    <h4>Weather application</h4>
+                    <p>Real-time weather app with dynamic city search.</p>
+                    <a href="https://onewheather.vercel.app/" target="_blank">live demo</a>
+                    <a href="https://github.com/mythreyareddyannadi/wheather-application.git" target="_blank">source
+                        code</a>
+                </div>
+            </div>
+
+            <div class="rightProject">
+                <div class="project">
+                    <img src="asserts/mycart.jpg" alt="MyCart picture">
+                    <h4>MyCart online shopping</h4>
+                    <p>A modern e-commerce platform.</p>
+                    <a href="https://mycartonlineshopping.vercel.app/" target="_blank">live demo</a>
+                    <a href="https://github.com/mythreyareddyannadi/MyCart---Online-Shopping-Site.git"
+                        target="_blank">source code</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="poppins-regular">
+        <div class="contactSection">
+            <div class="social">
+                <h4>Socials</h4>
+                <p><a href="https://www.linkedin.com/in/mythreyareddy/" target="_blank">Linkedin</a></p>
+                <p><a href="https://x.com/mythreyareddy_" target="_blank">Twitter</a></p>
+                <p><a href="https://www.instagram.com/mythreyareddy.annadi/" target="_blank">Instagram</a></p>
+            </div>
+            <div class="code">
+                <h4>Codes</h4>
+                <p><a href="https://github.com/mythreyareddyannadi" target="_blank">Github</a></p>
+            </div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <p><a href="mailto:mythreyareddy05@gmail.com" target="_blank">mythreyareddy05@gmail.com</a></p>
+            </div>
+        </div>
+        <h3>DEVELOPED BY MYTHREYAREDDY ANNADI</h3>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web development', 'video editing', 'prompting', 'and exploring emerging technologies like AI.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
