@@ -99,6 +99,16 @@ nav ul li {
     border-radius: 4px;
 }
 
+img {
+    transition-property: width;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+
+img:hover {
+    width: 275px;
+}
+
 .heading {
     width: 98.8vw;
     height: 5vh;
