@@ -140,6 +140,11 @@ img:hover {
     margin-top: -10px;
 }
 
+.project {
+    width: 30vw;
+    height: 50vh;
+}
+
 .project img {
     width: 250px;
     height: 200px;
